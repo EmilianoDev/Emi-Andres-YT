@@ -1,7 +1,7 @@
 /*NAV*/
 body{
     margin: 0;
-    background-color: #333;
+    background-color: #f9f9f9;
 }
 nav {
     background-color: #ffffff;
@@ -107,7 +107,7 @@ b{
     width: 244px;
     display: flex;
     margin-right: 20px;
-    
+    margin-left: 20px;
     
 }
 
@@ -118,7 +118,23 @@ b{
     
 }
 
-.icons li img {
+div.icons li img {
     max-height: 24px; 
     padding-top: 20%;  
+}
+
+/* VIDEO */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 402px;
+}
+
+div.video{
+    margin: 24px 24px;
+}
+.cuatro{
+    width: 402px;
+}
+div.cuatro > div{
+   max-width: 402px;
 }
